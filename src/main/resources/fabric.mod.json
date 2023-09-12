@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "immersif_paintings",
+	"version": "${version}",
+	"name": "Immersif Paintings",
+	"description": "Add high-definition paintings to your world.",
+	"authors": ["thebluetropics"],
+	"license": "MIT",
+	"icon": "assets/immersif_paintings/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.thebluetropics.ImmersifPaintingsMod"
+		],
+		"client": [
+			"me.thebluetropics.ImmersifPaintingsModClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "immersif_paintings:item/the_moyai_valley"
+  }
+}

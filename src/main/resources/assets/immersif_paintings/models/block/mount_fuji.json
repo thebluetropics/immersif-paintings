@@ -1,0 +1,7 @@
+{
+  "parent": "immersif_paintings:block/small_painting",
+  "textures": {
+    "0": "immersif_paintings:block/mount_fuji",
+    "particle": "immersif_paintings:block/mount_fuji"
+  }
+}

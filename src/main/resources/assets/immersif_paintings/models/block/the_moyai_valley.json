@@ -1,0 +1,7 @@
+{
+  "parent": "immersif_paintings:block/small_painting",
+  "textures": {
+    "0": "immersif_paintings:block/the_moyai_valley",
+    "particle": "immersif_paintings:block/the_moyai_valley"
+  }
+}
