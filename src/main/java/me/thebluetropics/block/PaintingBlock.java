@@ -28,18 +28,13 @@ public class PaintingBlock extends Block {
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         Direction dir = state.get(Properties.HORIZONTAL_FACING);
-        switch (dir) {
-            case NORTH:
-                return Helpers.shape(1, 2, 15, 15, 14, 16);
-            case SOUTH:
-                return Helpers.shape(1, 2, 0, 15, 14, 1);
-            case EAST:
-                return Helpers.shape(0, 2, 1, 1, 14, 15);
-            case WEST:
-                return Helpers.shape(15, 2, 1, 16, 14, 15);
-            default:
-                return VoxelShapes.fullCube();
-        }
+        return switch (dir) {
+            case NORTH -> Helpers.shape(1, 2, 15, 15, 14, 16);
+            case SOUTH -> Helpers.shape(1, 2, 0, 15, 14, 1);
+            case EAST -> Helpers.shape(0, 2, 1, 1, 14, 15);
+            case WEST -> Helpers.shape(15, 2, 1, 16, 14, 15);
+            default -> VoxelShapes.fullCube();
+        };
     }
 
     @Nullable

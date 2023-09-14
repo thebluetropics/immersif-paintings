@@ -10,11 +10,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class ModBlocks {
-    public static final ArrayList<Block> paintings = new ArrayList<>();
-
     public static final PaintingBlock MOUNT_FUJI = new PaintingBlock(FabricBlockSettings.create().nonOpaque());
     public static final PaintingBlock THE_MOYAI_VALLEY = new PaintingBlock(FabricBlockSettings.create().nonOpaque());
     public static final PaintingBlock GRASS_AND_SKY = new PaintingBlock(FabricBlockSettings.create().nonOpaque());

@@ -36,18 +36,17 @@ public class DoublePaintingBlock extends Block {
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         Direction dir = state.get(Properties.HORIZONTAL_FACING);
         DoubleBlockHalf half = state.get(Properties.DOUBLE_BLOCK_HALF);
-        switch (dir) {
-            case NORTH:
-                return half.equals(DoubleBlockHalf.LOWER) ? Helpers.shape(1, 2, 15, 15, 16, 16) : Helpers.shape(1, 0, 15, 15, 14, 16);
-            case SOUTH:
-                return half.equals(DoubleBlockHalf.LOWER) ? Helpers.shape(1, 2, 0, 15, 16, 1) : Helpers.shape(1, 0, 0, 15, 14, 1);
-            case EAST:
-                return half.equals(DoubleBlockHalf.LOWER) ? Helpers.shape(0, 2, 1, 1, 16, 15) : Helpers.shape(0, 0, 1, 1, 14, 15);
-            case WEST:
-                return half.equals(DoubleBlockHalf.LOWER) ? Helpers.shape(15, 2, 1, 16, 16, 15) : Helpers.shape(15, 0, 1, 16, 14, 15);
-            default:
-                return VoxelShapes.fullCube();
-        }
+        return switch (dir) {
+            case NORTH ->
+                half.equals(DoubleBlockHalf.LOWER) ? Helpers.shape(1, 2, 15, 15, 16, 16) : Helpers.shape(1, 0, 15, 15, 14, 16);
+            case SOUTH ->
+                half.equals(DoubleBlockHalf.LOWER) ? Helpers.shape(1, 2, 0, 15, 16, 1) : Helpers.shape(1, 0, 0, 15, 14, 1);
+            case EAST ->
+                half.equals(DoubleBlockHalf.LOWER) ? Helpers.shape(0, 2, 1, 1, 16, 15) : Helpers.shape(0, 0, 1, 1, 14, 15);
+            case WEST ->
+                half.equals(DoubleBlockHalf.LOWER) ? Helpers.shape(15, 2, 1, 16, 16, 15) : Helpers.shape(15, 0, 1, 16, 14, 15);
+            default -> VoxelShapes.fullCube();
+        };
     }
 
     @Nullable
