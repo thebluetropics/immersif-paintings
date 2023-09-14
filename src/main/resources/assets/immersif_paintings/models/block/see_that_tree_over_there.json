@@ -1,0 +1,7 @@
+{
+  "parent": "immersif_paintings:block/short_painting",
+  "textures": {
+    "0": "immersif_paintings:block/see_that_tree_over_there",
+    "particle": "immersif_paintings:block/see_that_tree_over_there"
+  }
+}

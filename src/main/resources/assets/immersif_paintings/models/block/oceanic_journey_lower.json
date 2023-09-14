@@ -1,0 +1,7 @@
+{
+  "parent": "immersif_paintings:block/tall_painting_lower",
+  "textures": {
+    "0": "immersif_paintings:block/oceanic_journey",
+    "particle": "immersif_paintings:block/oceanic_journey"
+  }
+}

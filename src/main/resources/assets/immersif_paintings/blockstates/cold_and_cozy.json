@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,half=lower": { "model": "immersif_paintings:block/cold_and_cozy_lower", "uvlock": false },
+    "facing=east,half=lower": { "model": "immersif_paintings:block/cold_and_cozy_lower", "y": 90, "uvlock": false },
+    "facing=south,half=lower": { "model": "immersif_paintings:block/cold_and_cozy_lower", "y": 180, "uvlock": false },
+    "facing=west,half=lower": { "model": "immersif_paintings:block/cold_and_cozy_lower", "y": 270, "uvlock": false },
+    "facing=north,half=upper": { "model": "immersif_paintings:block/cold_and_cozy_upper", "uvlock": false },
+    "facing=east,half=upper": { "model": "immersif_paintings:block/cold_and_cozy_upper", "y": 90, "uvlock": false },
+    "facing=south,half=upper": { "model": "immersif_paintings:block/cold_and_cozy_upper", "y": 180, "uvlock": false },
+    "facing=west,half=upper": { "model": "immersif_paintings:block/cold_and_cozy_upper", "y": 270, "uvlock": false }
+  }
+}

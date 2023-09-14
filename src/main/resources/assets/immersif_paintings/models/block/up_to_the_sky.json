@@ -1,0 +1,7 @@
+{
+  "parent": "immersif_paintings:block/small_painting",
+  "textures": {
+    "0": "immersif_paintings:block/up_to_the_sky",
+    "particle": "immersif_paintings:block/up_to_the_sky"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "immersif_paintings:item/see_that_tree_over_there"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "immersif_paintings:block/up_to_the_sky", "uvlock": false },
+    "facing=east": { "model": "immersif_paintings:block/up_to_the_sky", "y": 90, "uvlock": false },
+    "facing=south": { "model": "immersif_paintings:block/up_to_the_sky", "y": 180, "uvlock": false },
+    "facing=west": { "model": "immersif_paintings:block/up_to_the_sky", "y": 270, "uvlock": false }
+  }
+}

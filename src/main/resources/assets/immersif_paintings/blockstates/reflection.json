@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "immersif_paintings:block/reflection", "uvlock": false },
+    "facing=east": { "model": "immersif_paintings:block/reflection", "y": 90, "uvlock": false },
+    "facing=south": { "model": "immersif_paintings:block/reflection", "y": 180, "uvlock": false },
+    "facing=west": { "model": "immersif_paintings:block/reflection", "y": 270, "uvlock": false }
+  }
+}

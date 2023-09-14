@@ -1,0 +1,7 @@
+{
+  "parent": "immersif_paintings:block/tall_painting_upper",
+  "textures": {
+    "0": "immersif_paintings:block/kinryuzan_temple",
+    "particle": "immersif_paintings:block/kinryuzan_temple"
+  }
+}

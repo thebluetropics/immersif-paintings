@@ -2,7 +2,6 @@ package me.thebluetropics.block;
 
 import me.thebluetropics.helper.Helpers;
 import net.minecraft.block.*;
-import net.minecraft.block.enums.WallMountLocation;
 import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.Properties;
@@ -15,15 +14,10 @@ import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
 import org.jetbrains.annotations.Nullable;
 
-public class SmallPaintingBlock extends Block {
-    public SmallPaintingBlock(Settings settings) {
+public class PaintingBlock extends Block {
+    public PaintingBlock(Settings settings) {
         super(settings);
         setDefaultState(getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
-    }
-
-    @Override
-    public BlockRenderType getRenderType(BlockState state) {
-        return super.getRenderType(state);
     }
 
     @Override

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "immersif_paintings:block/see_that_tree_over_there", "uvlock": false },
+    "facing=east": { "model": "immersif_paintings:block/see_that_tree_over_there", "y": 90, "uvlock": false },
+    "facing=south": { "model": "immersif_paintings:block/see_that_tree_over_there", "y": 180, "uvlock": false },
+    "facing=west": { "model": "immersif_paintings:block/see_that_tree_over_there", "y": 270, "uvlock": false }
+  }
+}
