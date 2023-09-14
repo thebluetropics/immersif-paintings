@@ -21,8 +21,8 @@ public class ModBlocks {
     public static final PaintingBlock STATION = new PaintingBlock(FabricBlockSettings.create().nonOpaque());
     public static final PaintingBlock ALPHA_JOURNEY = new PaintingBlock(FabricBlockSettings.create().nonOpaque());
     public static final PaintingBlock UP_TO_THE_SKY = new PaintingBlock(FabricBlockSettings.create().nonOpaque());
-    public static final PaintingBlock REFLECTION = new PaintingBlock(FabricBlockSettings.create().nonOpaque());
-    public static final PaintingBlock SEE_THAT_TREE_OVER_THERE = new PaintingBlock(FabricBlockSettings.create().nonOpaque());
+    public static final ShortPaintingBlock REFLECTION = new ShortPaintingBlock(FabricBlockSettings.create().nonOpaque());
+    public static final ShortPaintingBlock SEE_THAT_TREE_OVER_THERE = new ShortPaintingBlock(FabricBlockSettings.create().nonOpaque());
     public static final DoublePaintingBlock KINRYUZAN_TEMPLE = new DoublePaintingBlock(FabricBlockSettings.create().nonOpaque());
     public static final DoublePaintingBlock OCEANIC_JOURNEY = new DoublePaintingBlock(FabricBlockSettings.create().nonOpaque());
     public static final DoublePaintingBlock COLD_AND_COZY = new DoublePaintingBlock(FabricBlockSettings.create().nonOpaque());
